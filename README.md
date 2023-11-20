@@ -23,7 +23,7 @@ Se presentan las sedes con imágenes de las instalaciones y datos del lugar para
 Se muestra un formulario de contacto para completar los datos, solicitar información o enviar una consulta.
 
 ### Instalación
-1.Clona este repositorio de Github https://github.com/DeniseSz/Proyecto-BAM-Partes-2-y-3.git
+1.Clona este repositorio de Github https://github.com/DeniseSzr/BAM.git
 2.Abrir el archivo Index.html
 
 ### Tecnologías utilizadas
