@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Gym</title>
+</head>
+<body>
+
+    <!-- Se coloca la barra de navegación con el logo de la empresa y el botón para seleccionar el modo oscuro. -->
+ <header id="idheader">
+  <nav class="cajaNav" id="cajaNav">
+    <img class="logo" src="IMG/logo1.png" alt="logo">
+    <div class="titNav">
+    <div> <button id="dark-mode-button"> Modo</button> </div>
+    <div class="toggle" onclick="alternar('menu')"> Abrir </div>
+    </div>
+    <!-- Se coloca la lista que contendrá las secciones de la página web -->
+    <ul class="nav-bar cerrado" id="menu">
+      <li> <a id="home-link" class="navbar-brand" href="Index.html">Home </a> </li>
+      <li> <a id="sedes-link" class="navbar-link" href="sedes.html">Sedes </a></li>
+      <li> <a id="contact-link" class="navbar-link" href="contacto.html">Contacto </a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+<section>
+    <!-- Se coloca la imagen principal junto con la presentación y un video representativo de youtube -->
+    <div class="fondo">
+    <img class="img-fondo" src="IMG/fondo gimnasio.jpg" alt="fondo gimnasio">
+    </div>
+    <h1>¿Quiénes somos?</h1>
+     <p class="parrafo">Somos la red de gimnasios más importante del país. Contamos con gran variedad de máquinas y técnología de última generación.</p>
+     <iframe class="video" src="https://www.youtube.com/embed/BYktJckS0Iw" title="QUE EJERCICIOS HACER EL PRIMER DIA DE GYM (PASO A PASO)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>" 
+     <br><br>
+     <!-- Se realizan dos listas desordenadas y se colocan imágenes -->
+     <h2>Beneficios por suscripción</h2>
+    <div class="beneficios1">
+    <img class="B1" src="https://guiafitness.com/wp-content/uploads/consejos-principiante-gym.jpg" alt="Imagen B1">
+    <h1> Beneficios por suscripción</h1>
+      <ul>
+        <li>Experiencia y Conocimiento </li>
+        <li>Amplios Horarios </li>
+        <li>Recursos de Entrenamiento Integral</li>
+        <li>Comunidad y Apoyo </li>
+        <li>Acceso en Cualquier Momento y en Cualquier Lugar </li>
+      </ul>
+    </div>
+    <div class="beneficios2">
+    <img class="B2" src="https://mercadofitness.com/ar/wp-content/uploads/2019/06/Particip%C3%A1-de-las-Tendencias-del-Fitness-2020.jpg"alt="Imagen B2">
+    <h1>Más Beneficios</h1>
+      <ul>
+        <li>Libera tensiones y estrés</li>
+        <li>Mejora tu resistencia física</li>
+        <li>Mejora tu salud cardiovascular</li>
+        <li>Trabaja todo tu cuerpo</li>
+        <li>Mejora la estabilidad corporal</li>
+       </ul>
+    </div>
+</section>
+
+<hr>
+<section>
+    <!-- La sección sedes cuenta con títulos y maquetado con grid. Se incluyen imágenes y listas -->
+    <div class="header-container">
+        <h1> Vení a conocer nuestras sedes! </h1>
+    </div>
+    <div class="grid-container">
+        <div class="cuadrito">
+            <h2> Sede Palermo</h2>
+            <img class="gym" src="https://www.lanacion.com.ar/resizer/v2/el-nuevo-sportclub-es-el-mas-grande-del-pais-y-XKFDNDEVPBAX3D6PPMSM75DTE4.JPG?auth=f8e151d50210956c36cf9172afae7122636fc48c0c3926d18567d3809a33fd77&width=880&height=586&quality=70&smart=true" alt="Sede Palermo">
+            <p> Teléfono: 4986-9066 <br> Horarios: Lunes a Sábados de 7 a 23hs </p>
+            <h3> Instalaciones:</h3>
+            <ul>
+                <li> Clases personalizadas</li>
+                <li> Áreas de entrenamiento con equipamiento y pesas</li>
+                <li> Vestuarios con duchas</li>
+                <li> Espacio de relajación y recuperación</li>
+            </ul>
+        </div>
+        <div class="cuadrito">
+            <h2> Sede Tigre</h2>
+            <img class="gym" src="https://www.eltiempo.com/files/article_main_1200/uploads/2019/03/03/5c7be9d04d5fd.jpeg" alt="Sede Tigre">
+            <p> Teléfono: 4800-5023 <br> Horarios: Lunes a Sábados de 7 a 23hs</p>
+            <h3> Instalaciones:</h3>
+            <ul>
+                <li> Clases de sppining</li>
+                <li> Vestuarios con duchas</li>
+                <li> Área de entrenamiento funcional</li>
+                <li> Sala de musculación</li>
+            </ul>
+        </div>
+        <div class="cuadrito">
+            <h2> Sede Martinez</h2>
+            <img class="gym" src="https://www.countryandtownhouse.com/wp-content/uploads/2020/07/The_Nobu_Portman_Square_Pilates_3_Jack_Hardy_2021.jpg" alt="Sede Martinez">
+            <p> Teléfono: 4058-7765<br> Horarios: Lunes a Sábados de 7 a 23hs</p>
+            <h3> Instalaciones:</h3>
+            <ul>
+                <li> Pilates reformer</li>
+                <li>Sala de musculación </li>
+                <li> Vestuarios con duchas</li>
+                <li> Zona de entrenamiento cardiovascular</li>
+            </ul>
+        </div>
+        <div class="cuadrito">
+            <h2> Sede San Telmo</h2>
+            <img class="gym" src="https://www.purefitness.es/profesional/wp-content/uploads/maquinas-para-gimnasios-1024x683.jpg" alt="Sede San Telmo">
+            <p> Teléfono: 2738-5948 <br> Horarios: Lunes a Sábados de 7 a 23hs  </p>
+            <h3> Instalaciones:</h3>
+            <ul>
+                <li> Áreas de entrenamiento con sacos y pesas</li>
+                <li> Vestuarios con duchas</li>
+                <li> Área de entrenamiento de alta intensidad</li>
+                <li> Zona de estiramiento y yoga</li>
+            </ul>
+        </div>
+    </div>
+    <p class="motivational-quote">Nuestras instalaciones son el escenario donde tu determinación se convierte en éxito.</p>
+</section>
+<hr>
+<section>
+    <!-- Se establecen los formularios de contacto compuesto por nombre y apellido, correo electrónico, teléfono. -->
+<h1 class="contacto">Contactanos</h1>
+    <form id="form">
+    <div class="form-group">
+        <label for="name" class="nombre">Nombre y Apellido</label>
+        <input type="text" class="nombre" id="name" placeholder="Nombre y Apellido" style="width: 35%; height: 20px;">
+    </div>
+    <div class="form-group">
+        <label for="correo" class="correo">Email</label>
+        <input type="email" class="correo" id="email" placeholder="name@example.com" style="width: 35%; height: 20px;">
+    </div>
+    <div class="form-group">
+        <label for="tel" class="telefono">Telefono</label>
+        <input type="tel" class="telefono" id="tel" placeholder="123-456-7890" style="width: 30%; height: 20px;">
+    </div>
+    <!-- Dentro del formulario de contacto se puede seleccionar la sede elegida -->
+    <div class="form-group">
+        <label for="sede" class="select">Sede</label>
+    <select class="select" aria-label="Default select example" style="width: 30%; height: 30px;">
+        <option selected>Elige tu sede</option>
+        <option value="1">Martinez</option>
+        <option value="2">Palermo</option>
+        <option value="3">San Telmo</option>
+        <option value="4">Tigre</option>
+    </select>
+    </div>
+    <!-- Se coloca dentro del formulario el espacio para que el usuario pueda redactar el mensaje -->
+    <div class="form-group">
+        <label for="consult" class="consulta-label">Envianos tu consulta!</label>
+    <div class="form-group">
+        <textarea class="form-control" id="consult" style="width:60%  height: 50px;"></textarea>
+    </div>
+    </div>
+    <div class="botones">
+        <!-- Se colocan los botones correspondientes para enviar datos o para borrar el formulario. -->
+       <button type="submit">Enviar datos</button>
+       <input type="reset" value="Borrar datos">
+    </div>
+</form>
+<!--Se coloca la frase motivacional al finalizar el formulario -->
+<div class="motivational-quote"><p>Comenza con nosotros el viaje hacia tu mejor versión!</p>
+</div>
+</section>
+</main>
+<hr>
+<!--  En el footer se colocan los links para acceder a las diferentes redes sociales. -->
+<footer id="idfooter">
+    <a class="redsoc" href="https://www.facebook.com" target="blank">
+    <img class="redsoc"  src="img/001-facebook.png" alt="facebook">
+    </a>
+    <a class="redsoc" href="https://www.twitter.com" target="blank">
+    <img class="redsoc"  src="img/003-twitter.png" alt="twitter">
+    </a>
+    <a class="redsoc"  href="https://www.instagram.com/?hl=es" target="blank">
+    <img class="redsoc"  src="img/002-instagram.png" alt="instagram">
+    </a>
+</footer>
+<!-- footer termina -->
+<script src="modo.js"></script>
+<script src="validacion.js"></script>
+</body>
+</html>
